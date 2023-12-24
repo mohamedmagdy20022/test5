@@ -1,0 +1,41 @@
+.mark{
+  background-image: url(../photo/aaab09d9-216f-40a1-8db4-b7c74500ce30\ \(1\).jpg);
+background-position: center;
+background-size: cover;
+
+}
+
+label{
+  color: white;
+}
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  animation:  animation1 2s infinite;
+
+}
+h2{
+  font-family:Righteous, cursive ;
+}
+.fa-bookmark{
+  animation:  animation1 2s infinite;
+}
+
+@keyframes animation1 {
+  0%{
+  color: black;
+
+  }
+  25%{
+    color: white;
+  }
+  50%{
+    color: black;
+  }
+  75%{
+  color: white;
+  }
+  100%{
+    color: black;
+  }
+}
